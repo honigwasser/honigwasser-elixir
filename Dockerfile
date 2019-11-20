@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.22
-MAINTAINER pressrelations
+MAINTAINER honigwasser
 
 ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
