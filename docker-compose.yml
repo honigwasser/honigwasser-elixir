@@ -1,0 +1,12 @@
+app: &app_base
+  build: .
+  command: sleep 100000000000
+  ports:
+    - "4078:4000"
+  environment:
+    DISPLAY: :0.0
+  volumes:
+    - .:/app
+    - .hex:/root/.hex
+    - .mix:/root/.mix
+    - /tmp/.X11-unix/X0:/tmp/.X11-unix/X0

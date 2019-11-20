@@ -1,0 +1,5 @@
+alias crun="docker-compose up -d --remove-orphans && docker-compose exec app bash -l"
+alias cstop="docker-compose stop"
+alias ckill="docker-compose kill"
+alias cbuild="docker-compose build"
+alias crm="docker-compose rm -fa"

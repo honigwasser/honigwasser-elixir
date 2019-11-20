@@ -1,0 +1,5 @@
+un
+mix archive.install hex phx_new
+mix phx.new . --module MyApplication --app my_application --no-ecto --no-html
+exit
+sudo chown -R $USER.$USER .
